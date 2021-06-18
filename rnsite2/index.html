@@ -432,6 +432,7 @@
             </div>
         </div>
     </div>
+
     <div class="container-fluid padddd">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 padddd">
             <div class="map_section">
@@ -441,21 +442,22 @@
 
                             <form class="main_form">
                                 <div class="row">
+                                   <h3>Escreva a sua mensagem no formulário abaixo e, em breve, responderemos por e-mail.<br></h3>
 
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                        <input class="form-control" placeholder="Name" type="text" name="Name">
+                                        <input class="form-control" placeholder="Nome" type="text" name="Name">
                                     </div>
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                        <input class="form-control" placeholder="Email" type="text" name="Email">
+                                        <input class="form-control" placeholder="E-mail" type="text" name="Email">
                                     </div>
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                        <input class="form-control" placeholder="Phone" type="text" name="Phone">
+                                        <input class="form-control" placeholder="Telefone" type="text" name="Phone">
                                     </div>
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                        <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
+                                        <textarea class="textarea" placeholder="Mensagem" type="text" name="Message"></textarea>
                                     </div>
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                        <button class="send">Send</button>
+                                        <button class="send">Enviar</button>
                                     </div>
                                 </div>
                             </form>
@@ -463,6 +465,7 @@
                     </div>
                 </div>
                 <div id="map">
+                    <!--aqui está a imagem com vários artistas, atrás do formulário de contato-->
                 </div>
 
             </div>
@@ -483,6 +486,7 @@
                         <div class="address">
                             <a href="index.html"> <img src="images/logo.png" alt="logo" /></a>
                             <p>Curso de história da arte com Rodrigo Naves<br><br>RN Difusão Cultural LTDA</p>
+                            <p><br><br>© 2021 All Rights Reserved.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
@@ -527,12 +531,8 @@
             </div>
         </div>
      
-        <div class="copyright">
-            <div class="container">
-                <p>© 2019 All Rights Reserved. Design By<a href="https://html.design/"> Free Html Templates</a></p>
-           
-        </div>
-        </div>
+      
+        
     </footr>
 
     <!-- end footer -->
@@ -564,32 +564,7 @@
             });
         });
     </script>
-    <script>
-        // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-        // Australia.
-        function initMap() {
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 11,
-                center: {
-                    lat: 40.645037,
-                    lng: -73.880224
-                },
-            });
-
-            var image = 'images/maps-and-flags.png';
-            var beachMarker = new google.maps.Marker({
-                position: {
-                    lat: 40.645037,
-                    lng: -73.880224
-                },
-                map: map,
-                icon: image
-            });
-        }
-    </script>
-    <!-- google map js -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
-    <!-- end google map js -->
+  
 </body>
 
 </html>

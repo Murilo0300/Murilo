@@ -2042,17 +2042,21 @@ transform: skew(190deg);
 
 
 .contact {
-    margin-top: 90px;
+    margin-top: 10px;
     
+}
+
+.row h3{
+     color: #ffffff;
 }
 
 
 .map_section {
-    border-top: #052501 solid 6px;
+    border-top: #2f4f4f solid 6px;
 }
 #map {
-    height: 100%;
-    min-height: 670px;
+    height: 600px;
+    background-image: url(../images/banner-fundo.png);
 }
 
 .padddd {
@@ -2062,8 +2066,8 @@ transform: skew(190deg);
 .main_form {
     position: absolute;
     z-index: 990;
-    background: #052501;
-   margin-top: 80px;
+    background: #2f4f4f;
+     margin-top: 80px;
     padding: 60px 40px;
 }
 
@@ -2112,7 +2116,7 @@ transform: skew(190deg);
 
 /** end contact **/
 
-.footer {background: #052501; padding: 90px 0px;}
+.footer {background: #2f4f4f; padding: 90px 0px;}
 
 
  
