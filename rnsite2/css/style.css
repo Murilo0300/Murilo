@@ -318,19 +318,23 @@ a.readmore_bt {
 /*********************************************************************************/
 /* estilo das redes sociais do início                                             */
 /*********************************************************************************/
-#redes {
+.redes {
 
      float: right;
 	background-color: #2f4f4f;
      width: 100%;
-
      
 }
 
-#redes img {
+.redes img {
      float: right;
      padding-top: 2%;
      padding-left: 2%;
+}
+
+img.logo {
+     float: left;
+
 }
 
 
@@ -456,45 +460,20 @@ a.readmore_bt {
 
 .header {
      font-family: poppins;
-     padding: 10px 0px;
-    background: #2F4F4F;
+     padding: 0px 0px;
+     background: #2F4F4F;
      background-repeat: no-repeat;
-background-size: 100% 100%;
-background-position: center center;
+     background-size: 100% 100%;
+     background-position: center center;
 }
 
-.logo {
-     float: left;
-     position: relative;
-     padding-top: 2px;
-}
 
 nav.main-menu {
      float: right;
      margin-left: 0;
 }
 
-ul.top_icon {
-     float: right;
-     padding-top: 17px;
-}
 
-ul.top_icon li {
-     float: left;
-     color: #fff;
-     display: flex;
-     flex-wrap: wrap;
-     align-items: center;
-     padding-right: 20px;
-}
-
-ul.top_icon li:last-child {
-     padding-right: 0px;
-}
-
-ul.top_icon li a {
-     color: #fff;
-}
 
 .menu-area-main li:hover a,
 .menu-area-main li:focus a {
@@ -564,7 +543,7 @@ ul.top_icon li a {
 /*-- end header middle --*/
 
 .top-bar-info {
-     background: #111111;
+     background: #558f5f;
      padding: 5px 0px;
 }
 
@@ -655,7 +634,7 @@ ul.top_icon li a {
 }
 
 .dropdown-bar .dropdown-link li a {
-     color: #111111;
+     color: #558f8f;
      display: block;
      font-size: 12px;
      line-height: 15px;
@@ -757,7 +736,7 @@ ul.top_icon li a {
 }
 
 .btn-template-outlined {
-     background: #111111;
+     background: #558f5f;
      color: #ffffff;
      border: none;
      border-radius: 0px;
@@ -820,7 +799,7 @@ ul.top_icon li a {
 }
 
 .header-search form .search-btn:hover {
-     background: #111111;
+     background: #558f5f
 }
 
 .cart-box {
@@ -864,7 +843,7 @@ ul.top_icon li a {
 }
 
 .inner-cart {
-     background: #38c8a8;
+     background: #558f5f;
      border-radius: 2px;
      padding: 0px;
      color: #ffffff;
@@ -1613,20 +1592,19 @@ width: 100%;
 
 .location_icon_bottum_tt ul li {
      display: inline-block;
-padding: 27px 60px;
-color: #fff;
-font-size: 15px;
-font-weight: 500;
+     padding: 20px 30px;
+     color: #ffff;
+     font-size: 15px;
+     font-weight: 500;
 }
 .location_icon_bottum_tt ul li img {padding-right: 10px;}
 
 
 
 .location_icon_bottum {
-   
     position: relative;
     z-index: 999;
-    background: #090501;
+    background: #558f8f;
     margin-left: 31px;
     top: 0;
     margin-bottom: -43px;
