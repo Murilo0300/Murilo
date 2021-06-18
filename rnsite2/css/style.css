@@ -315,6 +315,34 @@ a.readmore_bt {
      color: #fff;
 }
 
+/*********************************************************************************/
+/* estilo das redes sociais do início                                             */
+/*********************************************************************************/
+.redes {
+
+	width: 779px;
+	height: 50px;
+	background-color: #2f4f4f;
+	padding-left: 20px;
+	border-radius: 10px;
+}
+
+.redes h1 {
+	color: #FFFFFF;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	padding-bottom: 3px;
+	-webkit-text-stroke-width: 1px; /*para fazer o contorno da forma*/
+	-webkit-text-stroke-color: #000;
+	font-size: 38px;
+}
+
+.redes a {
+	float: right;
+	padding-right: 20px ;
+	
+}
+
+
 
 /**-- list icon --**/
 
