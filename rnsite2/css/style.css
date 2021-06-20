@@ -337,6 +337,37 @@ img.logo {
 
 }
 
+/*****estilo da aba de navegação***********/
+/*****************************************/
+
+.navegador {
+     background-color: #558f8f;
+     display: inline-block;
+     width: 100%;
+     height: 50px;
+     padding-right: 3%;
+     padding-left: 3%;
+     padding-top: 12px;
+     
+}
+
+.navegador a{
+     height: 50px;
+     padding-top: 12px;
+     padding-right: 3%;
+     padding-left: 3%;
+}
+
+.navegador a:hover {
+     height: 100px;
+     background-color: #71c7c7;
+     padding-right: 5%;
+     padding-left: 3%;
+     padding-top: 12px;
+  
+
+}
+
 
 
 /**-- list icon --**/
@@ -2047,6 +2078,7 @@ transform: skew(190deg);
 }
 
 .row h3{
+
      color: #ffffff;
 }
 
